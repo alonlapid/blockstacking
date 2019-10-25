@@ -4,7 +4,7 @@ Files:
 blocks.py the Python code for the Block stacking problem.
 readme.txt - this documentation file 
 
-To run  the program  execute from a command line:  python blocks.py  <infile.txt> <outfile.txt>
+To run  the program  execute from a command line:  python block.py  <infile.txt> <outfile.txt>
 
 Algorithm: The main idea is that a block can be placed on top of another block only if the base area of the upper block is strictly smaller than the base area of the lower block. This means that the block with the largest base area has to be on the bottom if it is part of the optimal solution. 
 
